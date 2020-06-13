@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Facial Recognition</title>
+        <meta charset="utf-8" />
+        <title></title>
+
+        <!-- BOOTSTRAP Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        
+    </head>
+    <body>
+        <!--Make the page dynamic-->
+        <div class="container-fluid">
+            <div class="well">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h1 class="text-center">Facial Expression Recognition</h1>
+                        <!-- Part I am having an issue with -->                                             
+                           <div class="caption text-center">BY YASH BAGHANI</div>                                               
+                    </div>
+                </div>    
+            </div>       
+            <footer class="text-center">
+                <p>THIS FACIAL EXPRESSION RECOGNITION IS CODED USING ML/DL TECHNIQUES</p>
+            </footer>  
+            <img id="bg" width=700px height=500px src="{{ url_for('video_feed') }}" align="center">
+        </div>   
+        
+    </body>
+</html>
